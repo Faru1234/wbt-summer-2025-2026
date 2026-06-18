@@ -89,22 +89,151 @@
                     <label for="Donation Amount"> $200 </label>
                     <input type="radio" id="donationamount" name="donationamount" value="others">
                     <label for="Donation Amount"> others </label>
+</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <label for="monthly_amount">Monthly Credit Card $</label>
+                    <input type="text" id="monthly_amount" name="monthly_amount" size="5">
+                    <label for="months">For</label>
+                    <input type="text" id="months" name="months" size="5"> Months
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1>Honorarium and Memorial Donation Information</h1>
+        <table>
+            <tr>
+                <td><label>I would like to make this donation</label></td>
+                <td>
+                    <input type="radio" id="honor" name="donation_type" value="Honor">
+                    <label for="honor">To Honor</label>
+                    <br>
+                    <input type="radio" id="memory" name="donation_type" value="Memory">
+                    <label for="memory">In Memory of</label>
                 </td>
             </tr>
             <tr>
-                <td><label>Recurring Donation</label></td>
+                <td><label for="honor_name">Name</label></td>
+                <td><input type="text" id="honor_name" name="honor_name"></td>
+            </tr>
+            <tr>
+                <td><label for="acknowledge_to">Acknowledge Donation to</label></td>
+                <td><input type="text" id="acknowledge_to" name="acknowledge_to"></td>
+            </tr>
+            <tr>
+                <td><label for="honor_address">Address</label></td>
+                <td><input type="text" id="honor_address" name="honor_address"></td>
+            </tr>
+            <tr>
+                <td><label for="honor_city">City</label></td>
+                <td><input type="text" id="honor_city" name="honor_city"></td>
+            </tr>
+            <tr>
+                <td><label for="honor_state">State</label></td>
                 <td>
-                    <input type="checkbox" id="recurring" name="recurring" value="yes"
-                    <label for="recurring">I am interested in giving on a regular basis.</label>
-                    
-
-            
+                    <select id="honor_state" name="honor_state">
+                        <option value="">Select a state</option>
+                        <option value="DH">Dhaka</option>
+                        <option value="CO">Chittagong</option>
+                    </select>
                 </td>
             </tr>
-             <tr>
-                <td></td>td>
-            
- <html>
+            <tr>
+                <td><label for="honor_zip">Zip</label></td>
+                <td><input type="text" id="honor_zip" name="honor_zip"></td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1>Additional Information</h1>
+        <p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+        
+        <table>
+            <tr>
+                <td><label for="publication_name">Name</label></td>
+                <td><input type="text" id="publication_name" name="publication_name"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="anon" name="anonymous" value="yes">
+                    <label for="anon">I would like my gift to remain anonymous.</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="match" name="matching_gift" value="yes">
+                    <label for="match">My employer offers a matching gift program. I will mail the matching gift form.</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="save_cost" name="save_cost" value="yes">
+                    <label for="save_cost">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Comments</label></td>
+                <td>
+                    <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+                    <br>
+                    <small>(Please type any questions or feedback here)</small>
+                </td>
+            </tr>
+            <tr>
+                <td><label>How may we contact you?</label></td>
+                <td>
+                    <input type="checkbox" id="c_email" name="contact_method" value="email"> <label for="c_email">E-mail</label><br>
+                    <input type="checkbox" id="c_postal" name="contact_method" value="postal"> <label for="c_postal">Postal Mail</label><br>
+                    <input type="checkbox" id="c_phone" name="contact_method" value="phone"> <label for="c_phone">Telephone</label><br>
+                    <input type="checkbox" id="c_fax" name="contact_method" value="fax"> <label for="c_fax">Fax</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>I would like to receive newsletters and information about special events by:</p>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="n_email" name="newsletter_method" value="email"> <label for="n_email">E-mail</label><br>
+                    <input type="checkbox" id="n_postal" name="newsletter_method" value="postal"> <label for="n_postal">Postal Mail</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="vol" name="volunteer" value="yes">
+                    <label for="vol">I would like information about volunteering with the organization.</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Continue">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <br>
+    <p>🔒 Donate online with confidence. You are on a secure server.</p>
+    <p>If you have any problems or questions, please contact <a href="#">support</a>.</p>
+
+</body>
+
+</html>
 
  
 
