@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+</head>
+<body>
+<div class="card">
+<div class="card-header">
+<h1 class="form-title">Registration</h1>
+<p class="form-subtitle">Please complete all fields below.</p>
+<hr class="header-divider">
+</div>
+
+<div class="card-body">
+<form class="registration-form">
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="name">Full Name</label>
+</div>
+
+<div class="input-container">
+<input class="input-text" type="text" id="name" placeholder="Jane Doe">
+</div>
+</div>
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="postal">Postal Code</label>
+</div>
+<div class="input-container">
+<input class="input-number" type="number" id="postal" placeholder="10001">
+</div>
+</div>
+
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="dob">Date of Birth</label>
+</div>
+<div class="input-container">
+<input class="input-date" type="date" id="dob" value="2026-06-25">
+</div>
+
+</div>
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="email">Email Address</label>
+</div>
+
+<div class="input-container">
+<input class="input-email" type="email" id="email" placeholder="jane@example.com">
+</div>
+</div>
+
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="password">Password</label>
+</div>
+
+<div class="input-container">
+<input class="input-password" type="password" id="password" placeholder="••••••••">
+</div>
+</div>
+<div class="field">
+<div class="label-container">
+<label class="field-label" for="country">Country</label>
+</div>
+
+<div class="input-container">
+<select class="input-select" id="country">
+<option class="select-placeholder" value="" disabled selected>Select a country...</option>
+<option class="select-option" value="us">United States</option>
+<option class="select-option" value="bd">Bangladesh</option>
+<option class="select-option" value="uk">United Kingdom</option>
+</select>
+</div>
+</div>
+
+
+<div class="form-actions">
+<button class="btn-submit" type="submit">Submit</button>
+<button class="btn-reset" type="reset">Reset</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
